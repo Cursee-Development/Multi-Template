@@ -1,6 +1,6 @@
-package com.example.examplemod;
+package com.cursee.examplemod;
 
-import com.example.examplemod.platform.Services;
+import com.cursee.examplemod.platform.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
 
