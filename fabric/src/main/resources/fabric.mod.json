@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "id": "mod_id",
+    "id": "examplemod",
     "version": "${version}",
     "name": "${mod_name}",
     "description": "${description}",
@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.cursee.examplemod.ExampleMod"
+            "com.cursee.examplemod.ExampleModFabric"
         ]
     },
     "mixins": [
@@ -27,7 +27,8 @@
         "fabricloader": ">=0.14",
         "fabric": "*",
         "minecraft": "${minecraft_version}",
-        "java": ">=17"
+        "java": ">=17",
+        "monolib": ">=1.3.0"
     },
     "suggests": {
         "another-mod": "*"
