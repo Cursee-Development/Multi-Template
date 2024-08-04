@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "examplemod:block/placement_rotation_block"
+    }
+  }
+}
